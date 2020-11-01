@@ -16,6 +16,7 @@ library(ggcorrplot)
 library(xtable)
 library(fastDummies)
 library(pcaMethods) # different pca-methods to deal with missing values
+library(readxl)
 
 
 ## functions
@@ -41,6 +42,32 @@ crime_data_original <- read_csv("data/crim_off_cat__custom_128689_20201028_15553
                                                                               `2013` = col_number(), `2014` = col_number(), 
                                                                               `2015` = col_number(), `2016` = col_number(), 
                                                                               `2017` = col_number(), `2018` = col_number()))
+
+# corruption data
+#csvs
+CPI_2008 <- read_csv("D:/GitHub/crime_on_gdp/data/corruption/CPI-Archive-2008-2.csv")
+CPI_2009 <- read_csv("D:/GitHub/crime_on_gdp/data/corruption/CPI-2009-new_200601_120052.csv")
+CPI_2010 <- read_csv("D:/GitHub/crime_on_gdp/data/corruption/CPI-2010-new_200601_105629.csv")
+CPI_2011 <- read_csv("D:/GitHub/crime_on_gdp/data/corruption/CPI-2011-new_200601_104308.csv")
+CPI_2012 <- read_delim("D:/GitHub/crime_on_gdp/data/corruption/CPI2012_Results.csv", 
+                                                   ";", escape_double = FALSE, trim_ws = TRUE)
+CPI_2014 <- read_delim("data/corruption/CPI2014_FullDataSet.csv", 
+                       ";", escape_double = FALSE, trim_ws = TRUE)
+CPI_2015<- read_delim("data/corruption/CPI2015_FullDataSet.csv", 
+                                   ";", escape_double = FALSE, trim_ws = TRUE)
+CPI_2016 <- read_delim("data/corruption/CPI2016_FullDataSet.csv", 
+                                   ";", escape_double = FALSE, trim_ws = TRUE)
+CPI_2017 <- read_delim("data/corruption/CPI2017_FullDataSet.csv", 
+                       ";", escape_double = FALSE, trim_ws = TRUE)
+CPI_2018 <- read_delim("data/corruption/CPI2018_FullDataSet.csv", 
+                       ";", escape_double = FALSE, trim_ws = TRUE)
+
+# need to reformat, convert country code  
+
+
+#xlsx
+CPI_2013 <- read_excel("data/corruption/CPI2013_GLOBAL_WithDataSourceScores.xls")
+
 
 # controls
 
