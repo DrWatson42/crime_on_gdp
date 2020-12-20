@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.18)  20 DEC 2020 20:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.18)  20 DEC 2020 21:33
 entering extended mode
 **./crime_on_gdp.tex
 (crime_on_gdp.tex
@@ -957,7 +957,10 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+LaTeX Font Info:    Font shape `T1/aer/b/it' in size <12> not available
+(Font)              Font shape `T1/aer/bx/it' tried instead on input line 86.
+ [1
 Non-PDF special ignored!
 <special> header=pstricks.pro
 Non-PDF special ignored!
@@ -991,58 +994,58 @@ Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
 {C:/Users/eriks/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/aer/b/it' in size <14.4> not available
-(Font)              Font shape `T1/aer/bx/it' tried instead on input line 123.
+(Font)              Font shape `T1/aer/bx/it' tried instead on input line 124.
  [1]
-<charts/table_unit_cost.png, id=87, 874.467pt x 282.3348pt>
+<charts/table_unit_cost.png, id=88, 874.467pt x 282.3348pt>
 File: charts/table_unit_cost.png Graphic file (type png)
 <use charts/table_unit_cost.png>
-Package pdftex.def Info: charts/table_unit_cost.png  used on input line 150.
+Package pdftex.def Info: charts/table_unit_cost.png  used on input line 151.
 (pdftex.def)             Requested size: 396.91324pt x 128.15234pt.
 
 [2 <./charts/table_unit_cost.png>] [3]
-<charts/tab_lit_review.jpg, id=121, 702.37407pt x 191.21437pt>
+<charts/tab_lit_review.jpg, id=122, 702.37407pt x 191.21437pt>
 File: charts/tab_lit_review.jpg Graphic file (type jpg)
 <use charts/tab_lit_review.jpg>
-Package pdftex.def Info: charts/tab_lit_review.jpg  used on input line 186.
+Package pdftex.def Info: charts/tab_lit_review.jpg  used on input line 187.
 (pdftex.def)             Requested size: 396.91324pt x 108.05965pt.
  [4 <./charts/tab_lit_review.jpg>]
 [5] [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 329--330
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
 
  []
 
 
-Overfull \hbox (50.46252pt too wide) in paragraph at lines 303--333
+Overfull \hbox (50.46252pt too wide) in paragraph at lines 304--334
  [] 
  []
 
 <charts/corr_matrix_paper.png, id=206, 433.62pt x 289.08pt>
 File: charts/corr_matrix_paper.png Graphic file (type png)
 <use charts/corr_matrix_paper.png>
-Package pdftex.def Info: charts/corr_matrix_paper.png  used on input line 342.
+Package pdftex.def Info: charts/corr_matrix_paper.png  used on input line 343.
 (pdftex.def)             Requested size: 396.91324pt x 264.62029pt.
 [9] [10 <./charts/corr_matrix_paper.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 382--383
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
 []|\T1/aer/m/n/12 binary crime
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--413
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
 []|\T1/aer/m/n/12 Residual Std.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 419--423
+Underfull \hbox (badness 10000) in paragraph at lines 421--425
 
  []
 
 
-Overfull \hbox (59.77359pt too wide) in paragraph at lines 376--426
+Overfull \hbox (59.77359pt too wide) in paragraph at lines 378--428
  [] 
  []
 
@@ -1077,68 +1080,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--57
 [14
 
 ]) [15]
-<charts/scatter_pca.png, id=275, 433.62pt x 289.08pt>
+<charts/scatter_pca.png, id=278, 433.62pt x 289.08pt>
 File: charts/scatter_pca.png Graphic file (type png)
 <use charts/scatter_pca.png>
-Package pdftex.def Info: charts/scatter_pca.png  used on input line 455.
+Package pdftex.def Info: charts/scatter_pca.png  used on input line 470.
 (pdftex.def)             Requested size: 396.91324pt x 264.62029pt.
-<charts/des_line_intentional_homicide_1_.png, id=276, 433.62pt x 289.08pt>
+<charts/des_line_intentional_homicide_1_.png, id=279, 433.62pt x 289.08pt>
 File: charts/des_line_intentional_homicide_1_.png Graphic file (type png)
 <use charts/des_line_intentional_homicide_1_.png>
 Package pdftex.def Info: charts/des_line_intentional_homicide_1_.png  used on i
-nput line 468.
+nput line 483.
 (pdftex.def)             Requested size: 198.45662pt x 132.30353pt.
-<charts/des_line_assault_2_.png, id=277, 433.62pt x 289.08pt>
+<charts/des_line_assault_2_.png, id=280, 433.62pt x 289.08pt>
 File: charts/des_line_assault_2_.png Graphic file (type png)
 <use charts/des_line_assault_2_.png>
-Package pdftex.def Info: charts/des_line_assault_2_.png  used on input line 471
+Package pdftex.def Info: charts/des_line_assault_2_.png  used on input line 486
 .
 (pdftex.def)             Requested size: 198.45662pt x 132.30353pt.
-<charts/des_line_sexual_violence_3_.png, id=278, 433.62pt x 289.08pt>
+<charts/des_line_sexual_violence_3_.png, id=281, 433.62pt x 289.08pt>
 File: charts/des_line_sexual_violence_3_.png Graphic file (type png)
 <use charts/des_line_sexual_violence_3_.png>
 Package pdftex.def Info: charts/des_line_sexual_violence_3_.png  used on input 
-line 474.
+line 489.
 (pdftex.def)             Requested size: 198.45662pt x 132.30353pt.
-<charts/des_line_sexual_robbery_4_.png, id=279, 433.62pt x 289.08pt>
+<charts/des_line_sexual_robbery_4_.png, id=282, 433.62pt x 289.08pt>
 File: charts/des_line_sexual_robbery_4_.png Graphic file (type png)
 <use charts/des_line_sexual_robbery_4_.png>
 Package pdftex.def Info: charts/des_line_sexual_robbery_4_.png  used on input l
-ine 477.
+ine 492.
 (pdftex.def)             Requested size: 198.45662pt x 132.30353pt.
-<charts/des_line_theft_5_.png, id=280, 433.62pt x 289.08pt>
+<charts/des_line_theft_5_.png, id=283, 433.62pt x 289.08pt>
 File: charts/des_line_theft_5_.png Graphic file (type png)
 <use charts/des_line_theft_5_.png>
-Package pdftex.def Info: charts/des_line_theft_5_.png  used on input line 480.
+Package pdftex.def Info: charts/des_line_theft_5_.png  used on input line 495.
 (pdftex.def)             Requested size: 198.45662pt x 132.30353pt.
-<charts/des_line_drugs_6_.png, id=281, 433.62pt x 289.08pt>
+<charts/des_line_drugs_6_.png, id=284, 433.62pt x 289.08pt>
 File: charts/des_line_drugs_6_.png Graphic file (type png)
 <use charts/des_line_drugs_6_.png>
-Package pdftex.def Info: charts/des_line_drugs_6_.png  used on input line 483.
+Package pdftex.def Info: charts/des_line_drugs_6_.png  used on input line 498.
 (pdftex.def)             Requested size: 198.45662pt x 132.30353pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--485
+Underfull \hbox (badness 10000) in paragraph at lines 482--500
 []$[]$ $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--485
+Underfull \hbox (badness 10000) in paragraph at lines 482--500
 []$ $[]$
  []
 
-<charts/princial_component_1.png, id=282, 433.62pt x 289.08pt>
+<charts/princial_component_1.png, id=285, 433.62pt x 289.08pt>
 File: charts/princial_component_1.png Graphic file (type png)
 <use charts/princial_component_1.png>
-Package pdftex.def Info: charts/princial_component_1.png  used on input line 49
-8.
+Package pdftex.def Info: charts/princial_component_1.png  used on input line 51
+3.
 (pdftex.def)             Requested size: 396.91324pt x 264.62029pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 589--592
+Underfull \hbox (badness 10000) in paragraph at lines 604--607
 
  []
 
 
-LaTeX Warning: Float too large for page by 5.52519pt on input line 595.
+LaTeX Warning: Float too large for page by 5.52519pt on input line 610.
 
 [16 <./charts/scatter_pca.png (PNG copy)>] [17 <./charts/des_line_intentional_h
 omicide_1_.png> <./charts/des_line_assault_2_.png> <./charts/des_line_sexual_vi
@@ -1147,17 +1150,13 @@ ft_5_.png> <./charts/des_line_drugs_6_.png>] [18] [19 <./charts/princial_compon
 ent_1.png>] (crime_on_gdp.aux)
 Package rerunfilecheck Info: File `crime_on_gdp.out' has not changed.
 (rerunfilecheck)             Checksum: 707550B275608CF61338905A7D587866;654.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 23007 strings out of 479697
- 413180 string characters out of 2874572
- 793913 words of memory out of 3000000
- 39496 multiletter control sequences out of 15000+200000
- 444056 words of font info for 109 fonts, out of 3000000 for 9000
+ 23014 strings out of 479697
+ 413246 string characters out of 2874572
+ 793914 words of memory out of 3000000
+ 39498 multiletter control sequences out of 15000+200000
+ 447541 words of font info for 115 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  120i,14n,125p,1236b,871s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not ex
@@ -1208,9 +1207,9 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on crime_on_gdp.pdf (20 pages, 1145840 bytes).
+Output written on crime_on_gdp.pdf (20 pages, 1149176 bytes).
 PDF statistics:
- 377 PDF objects out of 1000 (max. 8388607)
+ 380 PDF objects out of 1000 (max. 8388607)
  72 named destinations out of 1000 (max. 500000)
  152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
