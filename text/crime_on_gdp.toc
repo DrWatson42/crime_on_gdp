@@ -1,12 +1,13 @@
 \babel@toc {english}{}
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
 \contentsline {section}{\numberline {2}Literature review}{2}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Unit Crime Costing}{2}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Macro Perspective}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.1}Unit Crime Cost}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Macro Perspective}{3}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Methodology}{5}{section.3}%
-\contentsline {section}{\numberline {4}Data}{5}{section.4}%
-\contentsline {subsection}{\numberline {4.1}General}{5}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Descriptives}{6}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Results}{6}{section.5}%
+\contentsline {subsection}{\numberline {3.1}Causal Effects}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Model}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Measures for crime}{6}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Data and Descriptives}{7}{section.4}%
+\contentsline {section}{\numberline {5}Results}{9}{section.5}%
 \contentsline {section}{\numberline {6}Conclusion}{10}{section.6}%
 \contentsline {section}{Works cited}{11}{section.6}%

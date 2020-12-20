@@ -1,4 +1,4 @@
-\begin{thebibliography}{11}
+\begin{thebibliography}{12}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -70,6 +70,12 @@ Sandra Rozo and Mauricio Cardenas.
 \newblock Does crime lower growth? evidence from colombia.
 \newblock \emph{Commission on Growth and Development. The International Bank
   for Reconstruction and Development.}, 01 2008.
+
+\bibitem[Senn(2020)]{github}
+Erik Senn.
+\newblock Github.
+\newblock \url{https://github.com/DrWatson42/crime_on_gdp}, 2020.
+\newblock Accessed: 2020-12-19.
 
 \bibitem[Verdugo~Yepes et~al.(2015)Verdugo~Yepes, Pedroni, and Hu]{var_model}
 Concha Verdugo~Yepes, Peter~L. Pedroni, and Xingwei Hu.

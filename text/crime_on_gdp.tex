@@ -83,7 +83,7 @@ December \nth{20}, 2020\\
    \emph{Erik-Jan Senn} \\
     \emph{Langgasse 56}\\
     \emph{9008 St. Gallen}\\
-    \emph{\href{https://github.com/DrWatson42/crime_on_gdp}{\textbf{\textcolor{blue}{Code on Github} }}}
+    \emph{\href{https://github.com/DrWatson42/crime_on_gdp}{\textcolor{blue}{Code on Github} }}
 
 \end{flushright}
 
@@ -111,59 +111,53 @@ December \nth{20}, 2020\\
 % ________________ INHALTSVERZEICHNIS ______________________%
 
 % 
+\tableofcontents   %fuegt Automatisch ein Inhaltsverzeichnis ein
 
+\listoftables 
 
+\listoffigures
+\newpage
 % ________________ HAUPTTEIL ______________________%
-
-
 
 \pagenumbering{arabic}      % Seitenzahlen wieder arabisch numerieren
 \setcounter{page}{1}        % Ruecksetzen des Seitenzahlzaehlers auf 1
 
 
+
+
 \subsection*{\textit{Abstract}}
 
-\textit{Abstract}
+\textit{Economic cost of crime can be estimated by unit cost methods or  macro-methods that estimate the effect of criminal activity on an economic variable. I construct an empirical crime measure and try to explain real GDP-growth in Europe with changes in criminal activity. I find no causal effect of crime on real GDP-growth.}
+
 
 
 \section{Introduction}
 \label{Introduction}
 Economic cost of crime are any cost associated with the prevention or the consequences of criminal activities and is usually measured in monetary units.
-Tangible economic cost of crime are measured in a monetary value already which makes them easy to estimate. They include direct cost such as repair cost for damaged goods, cost for medical care, cost for police and justice services and indirect cost such as prevention cost, loss of economic output (goods, services) or lost tax revenue.
-Intangible economic cost of crime  need to be transformed into a monetary value and are harder to measure. Examples are pain caused by crime, reduces quality of live of victims, fear of persecution of the offender or reduced trust in strangers for the entire society (see Table \ref{tab:unit_cost_crime}).  \citep{kosten_nutzen_entorf} 
+Tangible economic cost of crime are measured with a monetary value which makes them easy to estimate. Tangible cost include direct cost such as expense to repair damaged goods, medical expenses, cost for police and justice services and indirect cost such as prevention cost, loss of economic output (goods, services) or lost tax revenue.
+Intangible economic cost of crime are not directly measured in monetary units. Examples are pain caused by crime, reduces quality of live of victims, fear of persecution of the offender or reduced trust in strangers for the entire society (see Table \ref{tab:unit_cost_crime}).  \citep{kosten_nutzen_entorf} 
 
-The first crime cost estimation method discussed in this paper tries to estimate each component of cost separately and then sums up the components.
+The first crime cost estimation method discussed in this paper, the unit crime cost method, tries to estimate each component of cost separately and then sums up the components.
 This "detailed" estimation of crime cost could be used to evaluate justice policy using cost and benefit analysis. Take this simple question as an example: Is it profitable to introduce police patrols in cities at night? The question could be answered from an economic perspective if estimates for the following aspects are available: (1) cost for police patrols, (2) changes in prevented, detected and committed crimes due to police patrols and (3) economic cost of crime for each individual crime that is affected by police patrols. If that is the case, we could evaluate the question by comparing the cost of the measure (1) and the benefits of the measure (combine (2) and (3)).
-However, apart from (1) which mainly consists of direct cost, it is hard to find sufficient data for estimate (2) and (3). Unit crime costing methods as described in Section \ref{Literature Review} estimate the cost of an individual crime as required for (3), but results show a high variation in cost and are mainly available for the US. 
+However, apart from (1) which mainly consists of direct cost, it is hard to find sufficient data for estimate (2) and (3). Unit crime cost methods as described in Section \ref{Literature Review} estimate the cost of an individual crime as required for (3), but results show a high variation in cost and are mainly available for the US. 
 Overall, the idea of using cost and benefit analysis for justice policy evaluation is often not feasible because especially intangible cost of crime are hard to measure.
 
 The second crime cost estimation method does not attempt to capture each cost component separately (e.g. does not differentiate between tangible and intangible cost) and calculate a static cost estimate - it tries to estimate an effect of criminal activity on economic outcomes.
-Specifically, the empirical analyses of this paper is based on the idea of \citep{entorf} and tests if crime rates negatively impact GDP-growth of countries in Europe.\footnote{Due to lack of sufficient data, the paper focuses on Europe and not on Switzerland.
+The empirical analyses of this paper is based on the macro-approach of \cite{entorf} and tests if crime rates negatively impact GDP-growth of countries in Europe.\footnote{Due to lack of sufficient data, the paper focuses on Europe and not on Switzerland.
 Interestingly, in 2014 a request from the Christian Democratic Party (CVP) to the Swiss parliament asked to investigate the economic cost of crime in order to make more efficient investments in prevention and the justice system. The request was turned down due to the high cost to conduct the analysis.\citep{postulat}.}
 Compared to the case specific analysis first method, this approach requires less data and could potentially capture more unobserved effects such as a change in victims risk tolerance or reduced trust in society due to crime.
 Because economic outcome variables are also impacted by non-crime related factors, additional control variables need to be introduced and the effect measure is more noisy. 
 Also, this more general analysis reduces the usability of the analysis for policy evaluation. A aggregated measure of crime such as case numbers or a crime index as usually used in this type of analysis is hard to directly influence by an institution. Justice system characteristics that are easier to impact such the share of prisoners or police expenditure would give a more direct interpretation and enhance the relevance of the analysis, but are unlikely have a measurable impact on economic outcomes. While static quantified effects in terms of overall economic variables are hard to interpret, the impact of crime on the dynamics of economic variables could be easier to grasp. \footnote{For example, it might be more interesting that criminal activity reduces the GDP by 0.5\% this year than to know that criminal activity accounts for 3 \% of the GDP.} 
 
-The paper is organized as follows: Section \ref{Literature Review} gives an overview of the existing literature for crime-costing methods and macro analysis approaches. Section \ref{Methodology} introduces the empirical methods for this paper, Section \ref{Data} the data used. Section \ref{Results} presents the empirical results and Section \ref{Conclusion} concludes. 
-\begin{table}
-\begin{minipage}{0.9\textwidth}
-\captionof{table}{Cost of Crime - Classification}
-  \includegraphics[trim={0 0 0 0},width=\linewidth]{charts/table_unit_cost.png}
-\begin{flushleft}
-\footnotesize{\textit{Note:} The table shows examples of cost of crime components classified in different categories and potential ways to measure the components separately. Source: own representation.
-\label{tab:unit_cost_crime}	
-}
-\end{flushleft}
-\end{minipage}
-\end{table}
+The paper is organized as follows: Section \ref{Literature Review} gives an overview of the existing literature for crime-costing methods and macro analysis approaches. Section \ref{Methodology} introduces the empirical methods, Section \ref{Data} the data used. Section \ref{Results} presents the empirical results and Section \ref{Conclusion} concludes. 
 
 
 \section{Literature review}
 \label{Literature Review}
-The literature can be broadly divided into the two estimation methods discussed: the data-reliant detailed crime-costing methods that calculate cost of individual components and the less data-reliant macro perspective approaches. 
+The literature can be broadly divided into the two estimation methods discussed: the detailed crime-costing methods that calculate cost of individual components and the macro perspective approaches. 
 
 
-\subsection{Unit Crime Costing}
+\subsection{Unit Crime Cost}
 First, for crime-costing methods, I focus on research that includes intangible cost. Most estimations in the literature are based on US-data due easier access to detailed tangible cost data and similar availability of victim surveys etc..
 To estimate intangible cost, various different approaches are used. 
 
@@ -181,17 +175,6 @@ Also, the unit cost estimates show strong variation across studies - the cost of
 
 It is possible to use unit cost estimates to estimate the aggregated cost of crime by combining it with the case numbers. However, economically it could more plausible to see the cost estimates as marginal cost because cost per case might change with more or less cases due to economies of scale for the justice system or a potential critical threshold of crime that could lead to an economic breakdown. Common estimates are that economic cost of crime accounts for 3\% to 7\% of GDP for developed countries \citep{kosten_nutzen_entorf}.
 
-\begin{table}
-\begin{minipage}{0.9\textwidth}
-\captionof{table}{Unit Cost of Crime}
-  \includegraphics[trim={0 0 0 0},width=\linewidth]{charts/tab_lit_review.jpg}
-\begin{flushleft}
-\footnotesize{\textit{Note:} This table from \cite{collister} shows a summary of unit cost of crime estimates in the literature for different types of crimes. Source: \cite{collister}.
-\label{tab:unit_cost_crime_lit_review}	
-}
-\end{flushleft}
-\end{minipage}
-\end{table}
 
 \subsection{Macro Perspective}
 The second approach discussed in this paper does not estimate a static cost of crime based on separate cost estimations, but interprets "cost" more broadly as the effect of crime on economic variables. 
@@ -228,8 +211,7 @@ We cannot have a causal effect of GDP-growth on regressors that are used to expl
 \subsection{Model}
 
 I use a panel data regression to model country real GDP-growth. 
-Real GDP-growth as an outcome variable brings the advantage that intangible effects of crime that are hard to capture separately are included in the measure. \footnote{It should be noted that by definition, GDP does not include economic value added from illegal activities which could lead to an downwards biased effect as higher crime would reduce legal economic output while total economic output would stay the same. }
-
+Real GDP-growth as an outcome variable brings the advantage that intangible effects of crime that are hard to capture separately are included in the measure.\footnote{It should be noted that by definition, GDP does not include economic value added from illegal activities which could lead to an downwards biased effect as higher crime would reduce legal economic output while total economic output would stay the same. }
 \begin{equation}
 \label{reg}
 gdp_t = \beta X_t+ \alpha A_{t-1} + \eta B_t + \phi FI  + u_t
@@ -257,10 +239,85 @@ In total, I use 2 binary measures (binary crime, binary crime country), 2 contin
 I use socio-economic data and criminal record data from \cite{eurostat} for 32 European countries including Switzerland from 2009 to 2019. 
 Police-reported case numbers per 100.000 inhabitants for 13 offense categories are reported for each country. I focus on 7 categories\footnote{Other categories are excluded because they are subcategories or have many missing datapoints.}: intentional homicide, assault, sexual violence, robbery, burglary, theft and drug crimes. 
 Regarding missing data, I require all 7 crime measures and GDP-growth to be reported, otherwise an observation is excluded. For other control variables, I replace missing observations with the country mean. If a variable is missing for all years, the effect is already incorporated in the fixed effect of the country.
-From 2008, crime records are only available on a country level and not on a regional level as before. Combined with a short time horizon and missing data, this leads to only 269 observations available for the analysis.
+From 2008, crime records are only available on a country level and not on a regional level as before. Combined with a short time horizon and missing data, this leads to only 269 observations available for the analysis. The analysis is implemented in R, for the code see \cite{github}.
 
-Table \ref{fig:princial_component_1} shows the factor loadings of the first and second principal component. All loadings apart from homicide for the first component are positive. The assumption that the first principal component reflects general activity well is questionable due to the different sign of homicide. Countries with more intentional homicides would have a lower crime index if case numbers of other offense categories do not change. The reduction of dimensionality can be see in Figure \ref{fig:crime_case_data} and Figure \ref{fig:princial_component_1}. While general crime trends seem to be captured by the index, fixed positive weights or an already existing crime index could have prevented the negative impact of homicide on the crime index. If murder rates do not vary too much across time in one country, this should not be a big issue because the analysis does not focus on a cross-sectional comparison of countries. \footnote{A more detailed comparison with already existing crime incides is necessary to verify the validity of this measure.}
+Table \ref{pca_factor_loadings} shows the factor loadings of the first and second principal component. All loadings apart from homicide for the first component are positive. The assumption that the first principal component reflects general activity well is questionable due to the different sign of homicide. Countries with more intentional homicides would have a lower crime index if case numbers of other offense categories do not change. The reduction of dimensionality can be see in Figure \ref{fig:crime_case_data} and Figure \ref{fig:princial_component_1}. While general crime trends seem to be captured by the index, fixed positive weights or an already existing crime index could have prevented the negative impact of homicide on the crime index. If murder rates do not vary too much across time in one country, this should not be a big issue because the analysis does not focus on a cross-sectional comparison of countries.\footnote{A more detailed comparison with already existing crime incides is necessary to verify the validity of this measure.}
 The low variation of the crime index for many countries in Figure \ref{fig:princial_component_1} might be an issue for the empirical analysis because a less marginal difference from high to low criminal activity makes estimation of a potential effect harder. 
+
+Table \ref{tab:descriptive_stats} shows descriptive statistics for the 269 observations\footnote{\cite{entorf} use 62 observations.}. The last two columns show subpopulation means for all observations with a high/low crime level according to the "binary crime country" measure. GDP-growth is 1.4 \% lower in times of higher criminal activity than in times of lower criminal activity within a country, also some other control variable means differ depending on crime.\footnote{A test could be conducted to test if the difference in means is statistically significant.} The group means for the raw crime data of sexual violence and drugs are lower for observations with higher crime level even though they positively influence the continuous crime index. This is possible because of the separate construction of crime measures by country and correlations between case numbers of different offense types.
+
+
+In Figure \ref{fig:corr_matrix_paper}, correlations of the main variables of interest are investigated. From the 4 constructed crime measures, only "binary crime country" is slightly negatively correlated with GDP-growth. Education and young males are correlated with crime measures and GDP-growth, indicating that they need to be included in the analysis to not violate the conditional independence assumption. Lagged GDP-growth and inflation could be useful covariates to reduce the variance of the estimation due to their strong correlation with GDP-growth. 
+
+
+
+The scatter plot in Figure \ref{fig:scatter_pca} depicts crime data of countries in in only two dimensions using the first two principal components. We can see some clusters of similar crime characteristics for observations. Adding the color scale for GDP-growth, we cannot see a clear dependence between clusters and GDP-growth.\footnote{Categorizing countries similarity based on crime characteristics could be an interesting direct application of this reduction of dimensionality, but is not the aim of this paper.}
+
+Both the descriptive table and correlation matrix show a negative relationship of the "binary crime country" measure and GDP-growth. However, this is only an indication for a causal relationship because effects of other variables are not controlled for.
+
+\section{Results}
+\label{Results}
+
+
+Table \ref{construced_crime_measure} shows regression results for the self-constructed crime measures. "Binary crime" and "binary crime country" coefficients are estimates of the Rubin-causal average treatment effect. 
+None of the crime measures is significant. Only "binary crime" has the expected sign and has an economically relevant size (GDP-growth 0.8\% lower with high crime). However, as argued before the crime measure is mostly constant over time and could be correlated with unobserved variables that impact GDP-growth. The measure "binary crime country" estimates that in countries with higher crime than average, GDP-growth is 0.022\% higher than with lower crime than average and is insignificant.
+For the control variables, only lagged GDP-growth is significant on a 10 \% level. With an adjusted $R^2$ of 0.58, all models explain a relatively large share of variation in GDP-growth, indicating that the GDP-model itself successfully controls for some variation of GDP due to other factors than crime.
+
+Table \ref{tab:crime_case_number} shows results for the Granger-causal approach similar to \cite{entorf} with all offense category case numbers as regressors instead of the constructed binary crime measure. The coefficients are not jointly significant (p-value of 0.14), indicating no significant effect of crime in GDP. 
+The results are similar to those of \cite{entorf}, who also do not find a significant effect of crime on GDP-growth and reach an adjusted $R^2$ of 0.6. 
+
+One issue of this empirical analysis is the low number of observations combined with a flexible model with $\sim$ 50 regressors due to the fixed effects. This makes it hard to achieve significant results which can e.g. be seen by the low significance of lagged GDP-growth and other controls which are typically regarded as key factors for GDP-modeling. The specification might focus too much on reducing the the bias of the analysis by controlling for many possible confounding variables, and this comes at the cost of a high variance of estimates. Also, reverse causality is not treated well in the specified model. 
+
+Another aspect introducing noise could be the method to construct a suitable crime measure. 
+The interpretation of the first principal component as crime index measure is harmed by the different impact of homicide on the crime index. Also, the reduction to a binary measure can lead to a loss in relevant information, which is especially  relevant for only few observations.
+
+
+\section{Conclusion}
+\label{Conclusion}
+This paper explains estimation methods for economic cost of crime and empirically estimates cost of crime in Europe. 
+Unit costing approaches estimate each cost component for individual crimes separately. Macro-approaches estimate the effect of criminal activity on an economic variable. Empirically, I test whether crime has a causal effect on real GDP-growth. I construct a single binary crime measure using case numbers for 7 categories of crime and use a panel regression with data on 32 European countries to estimate the average causal effect. No significant effect of criminal activity on crime can be shown.
+
+Further research could improve the model of this paper by using a systematic way to select control variables, e.g. via a lasso algorithm or use more advanced GDP-models to reduce the variance of estimates. The theoretical extension of a Rubin-causal effect can be extended by allowing for continuous crime measures and multiple crime measures. 
+The constructed crime index can be compared with existing measures.
+The model could be extended to account for unknown time delays in the effect estimation and reverse causality, e.g. using a VAR model.
+Studies with less aggregated measures such as house prices and terror attacks or waves of criminal activity in small regions could address the issue of low variation in crime measures and potentially weak effects of crime on the economic outcome.
+ 
+\clearpage
+
+
+\addcontentsline{toc}{section}{Works cited}        % Fuegt im Inhaltsverzeichnis "References" hinzu
+\bibliography{literature}   
+
+\newpage
+
+\section*{Appendix}
+
+
+
+\begin{table}[!h]
+\begin{minipage}{0.9\textwidth}
+\captionof{table}{Cost of Crime - Classification}
+  \includegraphics[trim={0 0 0 0},width=\linewidth]{charts/table_unit_cost.png}
+\begin{flushleft}
+\footnotesize{\textit{Note:} The table shows examples of cost of crime components classified in different categories and potential ways to measure the components separately. Source: own representation.
+\label{tab:unit_cost_crime}	
+}
+\end{flushleft}
+\end{minipage}
+\end{table}
+
+
+\begin{table}[!h]
+\begin{minipage}{0.9\textwidth}
+\captionof{table}{Unit Cost of Crime}
+  \includegraphics[trim={0 0 0 0},width=\linewidth]{charts/tab_lit_review.jpg}
+\begin{flushleft}
+\footnotesize{\textit{Note:} This table from \cite{collister} shows a summary of unit cost of crime estimates in the literature for different types of crimes. Source: \cite{collister}.
+\label{tab:unit_cost_crime_lit_review}	
+}
+\end{flushleft}
+\end{minipage}
+\end{table}
 
 
 \begin{singlespace}
@@ -291,7 +348,6 @@ intentional homicide & -0.23 & 0.22 \\
 \end{table} 
 \end{singlespace}
 
-Table \ref{tab:descriptive_stats} shows descriptive statistics for the 269 observations\footnote{\cite{entorf} use 62 observations.}. The last two columns show subpopulation means for all observations with a high/low crime level according to the "binary crime country" measure. GDP-growth is 1.4 \% lower in times of higher criminal activity than in times of lower criminal activity within a country, also some other control variable means differ depending on crime.\footnote{A test could be conducted to test if the difference in means is statistically significant.} The group means for the raw crime data of sexual violence and drugs are lower for observations with higher crime level even though they positively influence the continuous crime index. This is possible because of the separate construction of crime measures by country and correlations between case numbers of different offense types.
 
 
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
@@ -335,9 +391,7 @@ intentional homicide & 1.34 & 1.08 & 0.95 & 1.40 & 1.26 \\
 \end{singlespace}
 
 
-In Figure \ref{fig:corr_matrix_paper}, correlations of the main variables of interest are investigated. From the 4 constructed crime measures, only "binary crime country" is slightly negatively correlated with GDP-growth. Education and young males are correlated with crime measures and GDP-growth, indicating that they need to be included in the analysis to not violate the conditional independence assumption. Lagged GDP-growth and inflation could be useful covariates to reduce the variance of the estimation due to their strong correlation with GDP-growth. 
-
-\begin{figure}
+\begin{figure}[!h]
 \begin{minipage}{0.9\textwidth}
 \captionof{figure}{Correlation Matrix}
   \includegraphics[trim={0 0 0 0},width=\linewidth]{charts/corr_matrix_paper.png}
@@ -349,25 +403,59 @@ In Figure \ref{fig:corr_matrix_paper}, correlations of the main variables of int
 \end{minipage}
 \end{figure}
 
-The scatter plot in Figure \ref{fig:scatter_pca} depicts crime data of countries in in only two dimensions using the first two principal components. We can see some clusters of similar crime characteristics for observations. Adding the color scale for GDP-growth, we cannot see a clear dependence between clusters and GDP-growth. \footnote{Categorizing countries similarity based on crime characteristics could be an interesting direct application of this reduction of dimensionality, but is not the aim of this paper.}
+\begin{figure}[!h]
+\begin{minipage}{0.9\textwidth}
+\captionof{figure}{Crime Principal Components and GDP-growth}
+  \includegraphics[trim={0 0 0 0},width=\linewidth]{charts/scatter_pca.png}
+\begin{flushleft}
+\footnotesize{\textit{Note:} This scatter plots depicts the relationship of the first and second crime principal component and real gdp-growth in \%. No clear pattern or clusters can be detected.
+\label{fig:scatter_pca}	
+}
+\end{flushleft}
+\end{minipage}
+\end{figure}
 
-Both the descriptive table and correlation matrix show a negative relationship of the "binary crime country" measure and GDP-growth. However, this is only an indication for a causal relationship because effects of other variables are not controlled for.
+\begin{figure}[!h]
 
-\section{Results}
-\label{Results}
+\begin{minipage}{0.45\textwidth}
+  \includegraphics[trim={0 0 0 0},width=\linewidth]{charts/des_line_intentional_homicide_1_.png}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+  \includegraphics[trim={0 0 0 0},width=\linewidth]{charts/des_line_assault_2_.png}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+  \includegraphics[trim={0 0 0 0},width=\linewidth]{charts/des_line_sexual_violence_3_.png}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+  \includegraphics[trim={0 0 0 0},width=\linewidth]{charts/des_line_sexual_robbery_4_.png}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+  \includegraphics[trim={0 0 0 0},width=\linewidth]{charts/des_line_theft_5_.png}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+  \includegraphics[trim={0 0 0 0},width=\linewidth]{charts/des_line_drugs_6_.png}
+\end{minipage}
+
+\begin{flushleft}
+\captionof{figure}{Crime case data by offense type - selected countries}
+\footnotesize{\textit{Note:} This figure shows the reported case numbers for different offense categories for selected European countries.
+\label{fig:crime_case_data}	
+}
+\end{flushleft}
+\end{figure}
 
 
-Table \ref{construced_crime_measure} shows regression results for the self-constructed crime measures. "Binary crime" and "binary crime country" coefficients are estimates of the Rubin-causal average treatment effect. 
-None of the crime measures is significant. Only "binary crime" has the expected sign and has an economically relevant size (GDP-growth 0.8\% lower with high crime). However, as argued before the crime measure is mostly constant over time and could be correlated with unobserved variables that impact GDP-growth. The measure "binary crime country" estimates that in countries with higher crime than average, GDP-growth is 0.022\% higher than with lower crime than average and is insignificant.
-For the control variables, only lagged GDP-growth is significant on a 10 \% level. With an adjusted $R^2$ of 0.58, all models explain a relatively large share of variation in GDP-growth, indicating that the GDP-model itself successfully controls for some variation of GDP due to other factors than crime.
-
-Table \ref{tab:crime_case_number} shows results for the Granger-causal approach similar to \cite{entorf} with all offense categories as regressors. The coefficients are not jointly significant (p-value of 0.14), indicating no significant effect of crime in GDP. 
-The results are similar to those of \cite{entorf}, who also do not find a significant effect of crime on GDP-growth. 
-
-One issue of this empirical analysis is the low number of observations combined with a flexible model with $\sim$ 50 regressors due to the fixed effects. This makes it hard to achieve significant results which can e.g. be seen by the low significance of lagged GDP-growth and other controls which are typically regarded as key factors for GDP-modeling. The specification might focus too much on reducing the the bias of the analysis by controlling for many possible confounding variables, and this comes at the cost of a high variance of estimates. Also, reverse causality is not treated well in the specified model. 
-
-Another aspect introducing noise could be the method to construct a suitable crime measure. 
-The interpretation of the first principal component as crime index measure is harmed by the different impact of homicide on the crime index. Also, the reduction to a binary measure can lead to a loss in relevant information, which is especially  relevant for only few observations. +
+\begin{figure}[!h]
+\begin{minipage}{0.9\textwidth}
+\captionof{figure}{Crime principal component 1 - selected countries}
+  \includegraphics[trim={0 0 0 0},width=\linewidth]{charts/princial_component_1.png}
+\begin{flushleft}
+\footnotesize{\textit{Note:} This chart depicts the first crime principal component over time for different countries. 
+\label{fig:princial_component_1}	
+}
+\end{flushleft}
+\end{minipage}
+\end{figure}
 
 
 \begin{singlespace}
@@ -380,10 +468,10 @@ The interpretation of the first principal component as crime index measure is ha
 \\[-1.8ex]\hline 
 \hline \\[-1.8ex] 
  & \multicolumn{4}{c}{\textit{Dependent variable: real GDP-growth}} \\ 
-\cline{2-4} 
-\\Used crime measure & pc crime 1 & pc crime 2 & binary crime & binary crime country\\ 
+\cline{2-5} 
+\\Crime measure used & pc crime 1 & pc crime 2 & binary crime & binary crime country\\ 
 \hline \\[-1.8ex] 
- crime measure & 0.594 & 0.653 &$-$0.801  & 0.022 \\ 
+ crime & 0.594 & 0.653 &$-$0.801  & 0.022 \\ 
   & (0.445) & (0.636) & (1.010) &  (0.331) \\ 
   & & & & \\ 
 \hline \\[-1.8ex] 
@@ -427,98 +515,6 @@ on crime and control variables. Control variables of the previous year are label
 			\end{threeparttable}
 \end{table} 
 \end{singlespace}
-
-\section{Conclusion}
-\label{Conclusion}
-This paper explains estimation methods for economic cost of crime and empirically estimates cost of crime in Europe. 
-Unit costing approaches estimate each cost component for individual crimes separately. Macro-approaches estimate the effect of criminal activity on an economic variable. Empirically, I test whether crime has a causal effect on real GDP-growth. I construct a single binary crime measure using case numbers for 7 categories of crime and use a panel regression with data on 32 European countries to estimate the average causal effect. No significant effect of criminal activity on crime can be shown.
-
-I refined the model of \cite{entorf} 
-
-to conduct a panel regression to identify a Rubin-causal effect of a binary crime measure 
-
-
-economic cost of crime
-Paper: unit costing and macro appraoch
-
-own analysis. Crime index, causal effect, panel data approach, eu countries, no sign effect of crime on gdp growth
-
-
-
-Further ideas: longer time frame, more variables and better selection, refine apporach of crime measure, e.g. use constructed crime indices (or compare measure with constructed indices), control for reverse causality 
-\& test different time delay effects - VAR model, lots of data
- more model specifications
- 
-OR: search for more regional effects where impact might be stronger \& more variation in crime: e.g. terror attacks on econ activ,  as already done: crime hot spots on house prices
- 
-\clearpage
-
-
-\addcontentsline{toc}{section}{Works cited}        % Fuegt im Inhaltsverzeichnis "References" hinzu
-\bibliography{literature}   
-
-\newpage
-
-\section*{Appendix}
-
-
-
-
-\begin{figure}
-\begin{minipage}{0.9\textwidth}
-\captionof{figure}{Crime Principal Components and GDP-growth}
-  \includegraphics[trim={0 0 0 0},width=\linewidth]{charts/scatter_pca.png}
-\begin{flushleft}
-\footnotesize{\textit{Note:} This scatter plots depicts the relationship of the first and second crime principal component and real gdp-growth in \%. No clear pattern or clusters can be detected.
-\label{fig:scatter_pca}	
-}
-\end{flushleft}
-\end{minipage}
-\end{figure}
-
-
-\begin{figure}
-
-\begin{minipage}{0.45\textwidth}
-  \includegraphics[trim={0 0 0 0},width=\linewidth]{charts/des_line_intentional_homicide_1_.png}
-\end{minipage}
-\begin{minipage}{0.45\textwidth}
-  \includegraphics[trim={0 0 0 0},width=\linewidth]{charts/des_line_assault_2_.png}
-\end{minipage}
-\begin{minipage}{0.45\textwidth}
-  \includegraphics[trim={0 0 0 0},width=\linewidth]{charts/des_line_sexual_violence_3_.png}
-\end{minipage}
-\begin{minipage}{0.45\textwidth}
-  \includegraphics[trim={0 0 0 0},width=\linewidth]{charts/des_line_sexual_robbery_4_.png}
-\end{minipage}
-\begin{minipage}{0.45\textwidth}
-  \includegraphics[trim={0 0 0 0},width=\linewidth]{charts/des_line_theft_5_.png}
-\end{minipage}
-\begin{minipage}{0.45\textwidth}
-  \includegraphics[trim={0 0 0 0},width=\linewidth]{charts/des_line_drugs_6_.png}
-\end{minipage}
-
-\begin{flushleft}
-\captionof{figure}{Crime case data by offense type - selected countries}
-\footnotesize{\textit{Note:} This figure shows the reported case numbers for different offense categories for selected European countries.
-\label{fig:crime_case_data}	
-}
-\end{flushleft}
-\end{figure}
-
-
-\begin{figure}
-\begin{minipage}{0.9\textwidth}
-\captionof{figure}{Crime principal component 1 - selected countries}
-  \includegraphics[trim={0 0 0 0},width=\linewidth]{charts/princial_component_1.png}
-\begin{flushleft}
-\footnotesize{\textit{Note:} This chart depicts the first crime principal component over time for different countries. 
-\label{fig:princial_component_1}	
-}
-\end{flushleft}
-\end{minipage}
-\end{figure}
-
 
 
 \begin{singlespace}
