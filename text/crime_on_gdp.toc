@@ -5,8 +5,8 @@
 \contentsline {subsection}{\numberline {2.2}Macro Perspective}{4}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Methodology}{5}{section.3}%
 \contentsline {section}{\numberline {4}Data}{5}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Source}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.1}General}{5}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Descriptives}{6}{subsection.4.2}%
 \contentsline {section}{\numberline {5}Results}{6}{section.5}%
-\contentsline {section}{\numberline {6}Conclusion}{7}{section.6}%
-\contentsline {section}{Works cited}{9}{section.6}%
+\contentsline {section}{\numberline {6}Conclusion}{10}{section.6}%
+\contentsline {section}{Works cited}{11}{section.6}%

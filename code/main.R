@@ -69,7 +69,7 @@ analysis_data <- inner_join(crime_measures, other_variables, by = c("year","coun
 
 ##### Define Analysis Variable Sets #####
 outcomes <- "gdp"  
-crime_measures <- c("pc_crime_1","pc_crime_2","binary_crime","binary_crime_country")
+crime_measures <- c("pc_crime_1","pc_crime_2","binary_crime","binary_crime_country") 
 crime_measures_raw <- c("intentional_homicide_1",
                         "assault_2","sexual_violence_3",
                         "robbery_4","burglary_5",
@@ -88,16 +88,16 @@ stargazer(as.matrix(analysis_data[,c(outcomes,controls_lag,controls_lead)][analy
 stargazer(as.matrix(analysis_data[,c(outcomes,controls_lag,controls_lead)][analysis_data$binary_crime_country==0,]), summary=TRUE, nobs=FALSE)
 
 # own table
-vars_descriptive_table = c(crime_measures,outcomes,controls_lag,controls_lead)
-names_vars_descriptive_table = c(crime_measures,outcomes,controls_lag,controls_lead)
+vars_descriptive_table = c(crime_measures_raw,outcomes,controls_lag,controls_lead)
+names_vars_descriptive_table = c(crime_measures_raw,outcomes,controls_lag,controls_lead)
 
 mydata_transform_table_paper <- analysis_data[,vars_descriptive_table]
 
 table_descriptives_paper <- cbind(apply(mydata_transform_table_paper, 2, mean), 
                                   apply(mydata_transform_table_paper, 2, median),
                                   apply(mydata_transform_table_paper, 2, sd),
-                                  apply(mydata_transform_table_paper[mydata_transform_table_paper$binary_crime_country==0,], 2, mean),
-                                  apply(mydata_transform_table_paper[mydata_transform_table_paper$binary_crime_country==1,], 2, mean)) # generate table with: mean, median, sd, group means (e=0, e=1) and std difference
+                                  apply(mydata_transform_table_paper[analysis_data$binary_crime_country==0,], 2, mean),
+                                  apply(mydata_transform_table_paper[analysis_data$binary_crime_country==1,], 2, mean)) # generate table with: mean, median, sd, group means (e=0, e=1) and std difference
 colnames(table_descriptives_paper) <- c("Mean","Median","St.-Dev.","Mean - Low Crime","Mean - High Crime")
 rownames(table_descriptives_paper) <- names_vars_descriptive_table
 
@@ -110,8 +110,9 @@ vars_descriptive_corrplot = c(crime_measures,outcomes,controls_lag,controls_lead
 names_vars_descriptive_corrplot = c(crime_measures,outcomes,controls_lag,controls_lead)
 
 mydata_transform_corrplot_paper <- analysis_data[,vars_descriptive_corrplot]
-mydata_transform_corrplot_paper <- relocate(mydata_transform_corrplot_paper, c("gdp", "gdp_lag1"))
 colnames(mydata_transform_corrplot_paper) <- names_vars_descriptive_corrplot
+mydata_transform_corrplot_paper <- relocate(mydata_transform_corrplot_paper, c("gdp", "gdp_lag1"))
+
 ggcorrplot(cor(mydata_transform_corrplot_paper, method =
                  "pearson"), tl.cex = 6)
 ggsave(
@@ -139,8 +140,6 @@ ggsave(
   height = 4,
   dpi = 1200
 )
-
-plot(analysis_data$Comp.1, analysis_data$Comp.2)
   
 
 ##### Regressions ######
@@ -152,17 +151,16 @@ for (i in 1:length(linear_model_list)){
   print(summary(linear_model_list[[i]]))
 }
 # manually add: use both pcs
-linear_model_list[[length(crime_measures)+1]] <- lm(analysis_data$gdp ~ ., data = analysis_data[,c("pc_crime_1", "pc_crime_2", controls)])
-print(summary(linear_model_list[[5]]))
+#linear_model_list[[length(crime_measures)+1]] <- lm(analysis_data$gdp ~ ., data = analysis_data[,c("pc_crime_1", "pc_crime_2", controls)])
+#print(summary(linear_model_list[[5]]))
 
 stargazer(linear_model_list[[1]],
           linear_model_list[[2]],
           linear_model_list[[3]],
           linear_model_list[[4]],
-          linear_model_list[[5]],
           title = paste("Regression Results - Constructed Crime Measures"), 
                        header =FALSE, keep = c(crime_measures,controls_lag, controls_lead), 
-                       type = "latex",notes.align = "l", 
+                       type = "latex",notes.align = "l", out=paste0(tables,"result_constructed_crime_measures.tex"), 
                        notes = paste0("Standard errors in parentheses. Each column shows estimation results for regressing real GDP-growth on crime and control variables using different measures of crime."))
 
 # regs with base variables
@@ -172,16 +170,19 @@ summary(linear_model_raw)
 stargazer(linear_model_raw,
           title = paste("Regression Results - Crime Case Numbers"), 
           header =FALSE, keep = c(crime_measures_raw,controls_lag, controls_lead), 
-          type = "latex",notes.align = "l", 
+          type = "latex",notes.align = "l", out=paste0(tables,"result_raw_crime_measures.tex"),
           notes = paste0("Standard errors in parentheses. The column shows the results of regressing real GDP-growth on crime and control variables using the raw case numbers for different offense types as crime measures."))
 
 
-test_joint_significance <- car::linearHypothesis(linear_model, c("intentional_homicide_1=0",
-                                      "assault_2=0",
-                                      "sexual_violence_3=0",
-                                      "robbery_4=0",
-                                      "burglary_5=0",
-                                      "theft_5=0",
-                                      "drugs_6=0"),singular.ok = TRUE)
+test_joint_significance <- car::linearHypothesis(linear_model_raw, c("intentional_homicide_1=0",
+                                                                     "assault_2=0",
+                                                                     "sexual_violence_3=0",
+                                                                     "robbery_4=0",
+                                                                     "burglary_5=0", 
+                                                                     "theft_5=0",
+                                                                     "drugs_6=0"),
+                                                 singular.ok = TRUE)
+print(xtable(test_joint_significance, title = "Joint Significance Test", digits = 2), type="latex",paste0(tables, "table_joint_significance_test.tex"))
+
 
 

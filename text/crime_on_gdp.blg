@@ -5,48 +5,49 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: plainnat.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: literature.bib
+Warning--to sort, need author or key in eurostat
 Warning--empty publisher in entorf
 Warning--empty journal in var_model
 Warning--there's a number but no volume in var_model
-You've used 10 entries,
+You've used 11 entries,
             2773 wiz_defined-function locations,
-            670 strings with 7228 characters,
-and the built_in function-call counts, 4304 in all, are:
-= -- 396
+            675 strings with 7312 characters,
+and the built_in function-call counts, 4551 in all, are:
+= -- 422
 > -- 213
 < -- 7
-+ -- 74
++ -- 75
 - -- 63
-* -- 351
-:= -- 682
-add.period$ -- 45
-call.type$ -- 10
-change.case$ -- 49
-chr.to.int$ -- 9
-cite$ -- 23
-duplicate$ -- 196
-empty$ -- 361
+* -- 365
+:= -- 704
+add.period$ -- 48
+call.type$ -- 11
+change.case$ -- 52
+chr.to.int$ -- 10
+cite$ -- 27
+duplicate$ -- 211
+empty$ -- 396
 format.name$ -- 81
-if$ -- 895
+if$ -- 957
 int.to.chr$ -- 2
 int.to.str$ -- 1
 missing$ -- 11
-newline$ -- 73
+newline$ -- 78
 num.names$ -- 40
-pop$ -- 92
+pop$ -- 105
 preamble$ -- 1
-purify$ -- 41
+purify$ -- 43
 quote$ -- 0
-skip$ -- 141
+skip$ -- 153
 stack$ -- 0
-substring$ -- 133
-swap$ -- 13
+substring$ -- 136
+swap$ -- 14
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 100
-warning$ -- 3
+type$ -- 111
+warning$ -- 4
 while$ -- 37
 width$ -- 0
-write$ -- 161
-(There were 3 warnings)
+write$ -- 173
+(There were 4 warnings)

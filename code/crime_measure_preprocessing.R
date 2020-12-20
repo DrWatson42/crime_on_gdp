@@ -274,7 +274,7 @@ for (i in colnames(crime_data_no_na_main_crimes)[3:ncol(crime_data_no_na_main_cr
       geom_line(aes(x=year,y=Comp.1, group = as.factor(country),color = country))+
       theme_bw()+
       theme(legend.position = "bottom", legend.box.background = element_rect(colour = "black"))+
-      ggsave(file=paste0(plots,"princial_component_1_",i,".png"), width=6, height=4, dpi=300)
+      ggsave(file=paste0(plots,"princial_component_1",".png"), width=6, height=4, dpi=300)
     
   # average pc 1 for country to check validity of index
     mean_pc1 <- group_by(crime_data_no_na_main_crimes, country) %>%

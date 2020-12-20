@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.18)  20 DEC 2020 00:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.18)  20 DEC 2020 20:41
 entering extended mode
 **./crime_on_gdp.tex
 (crime_on_gdp.tex
@@ -856,6 +856,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip99
 )
+("C:\Program Files\MiKTeX 2.9\tex/latex/setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
 (C:\Users\eriks\AppData\Roaming\MiKTeX\2.9\tex/latex/shipunov\boldline.sty
 Package: boldline 2008/02/04 v0.2 Adjust line width in tables
 )
@@ -865,7 +868,7 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \c@nlinenum=\count383
 \TeXr@lab=\toks50
 )
-LaTeX Font Info:    Trying to load font information for T1+aer on input line 53
+LaTeX Font Info:    Trying to load font information for T1+aer on input line 55
 .
 
 (C:\Users\eriks\AppData\Roaming\MiKTeX\2.9\tex/latex/ae\t1aer.fd
@@ -874,22 +877,22 @@ File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 (crime_on_gdp.aux)
 \openout1 = `crime_on_gdp.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
 
 ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -922,7 +925,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 53.
+Package hyperref Info: Link coloring OFF on input line 55.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -935,21 +938,21 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count390
 )
-LaTeX Info: Redefining \ref on input line 53.
-LaTeX Info: Redefining \pageref on input line 53.
-LaTeX Info: Redefining \nameref on input line 53.
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
 
 (crime_on_gdp.out) (crime_on_gdp.out)
 \@outlinefile=\write6
 \openout6 = `crime_on_gdp.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
@@ -987,117 +990,227 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
 {C:/Users/eriks/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(crime_on_gdp.toc)
-\tf@toc=\write7
-\openout7 = `crime_on_gdp.toc'.
-
- (crime_on_gdp.lot)
-\tf@lot=\write8
-\openout8 = `crime_on_gdp.lot'.
-
- (crime_on_gdp.lof)
-\tf@lof=\write9
-\openout9 = `crime_on_gdp.lof'.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.115 \newpage
-               [1]
 LaTeX Font Info:    Font shape `T1/aer/b/it' in size <14.4> not available
-(Font)              Font shape `T1/aer/bx/it' tried instead on input line 127.
+(Font)              Font shape `T1/aer/bx/it' tried instead on input line 123.
  [1]
-<charts/table_unit_cost.png, id=99, 874.467pt x 282.3348pt>
+<charts/table_unit_cost.png, id=87, 874.467pt x 282.3348pt>
 File: charts/table_unit_cost.png Graphic file (type png)
 <use charts/table_unit_cost.png>
-Package pdftex.def Info: charts/table_unit_cost.png  used on input line 154.
+Package pdftex.def Info: charts/table_unit_cost.png  used on input line 150.
 (pdftex.def)             Requested size: 396.91324pt x 128.15234pt.
- [2 <./charts/table_unit_cost.png>]
-<charts/tab_lit_review.jpg, id=124, 702.37407pt x 191.21437pt>
+
+[2 <./charts/table_unit_cost.png>] [3]
+<charts/tab_lit_review.jpg, id=121, 702.37407pt x 191.21437pt>
 File: charts/tab_lit_review.jpg Graphic file (type jpg)
 <use charts/tab_lit_review.jpg>
-Package pdftex.def Info: charts/tab_lit_review.jpg  used on input line 188.
+Package pdftex.def Info: charts/tab_lit_review.jpg  used on input line 186.
 (pdftex.def)             Requested size: 396.91324pt x 108.05965pt.
- [3] [4 <./charts/tab_lit_review.jpg>] [5]
-Overfull \hbox (45.42285pt too wide) in paragraph at lines 268--286
- [][] 
+ [4 <./charts/tab_lit_review.jpg>]
+[5] [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
+
  []
 
 
-Overfull \hbox (49.17833pt too wide) in paragraph at lines 293--306
- [][] 
+Overfull \hbox (50.46252pt too wide) in paragraph at lines 303--333
+ [] 
  []
 
-! Undefined control sequence.
-l.314 \singlespacing
-                    {
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+<charts/corr_matrix_paper.png, id=206, 433.62pt x 289.08pt>
+File: charts/corr_matrix_paper.png Graphic file (type png)
+<use charts/corr_matrix_paper.png>
+Package pdftex.def Info: charts/corr_matrix_paper.png  used on input line 342.
+(pdftex.def)             Requested size: 396.91324pt x 264.62029pt.
+[9] [10 <./charts/corr_matrix_paper.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
+[]|\T1/aer/m/n/12 binary crime
+ []
 
 
-LaTeX Warning: Float too large for page by 175.54169pt on input line 370.
+Underfull \hbox (badness 10000) in paragraph at lines 413--413
+[]|\T1/aer/m/n/12 Residual Std.
+ []
 
-[6] [7] [8] (crime_on_gdp.bbl
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--423
+
+ []
+
+
+Overfull \hbox (59.77359pt too wide) in paragraph at lines 376--426
+ [] 
+ []
+
+[11] [12] [13] (crime_on_gdp.bbl
 LaTeX Font Info:    Trying to load font information for T1+aett on input line 1
-4.
+0.
 
 (C:\Users\eriks\AppData\Roaming\MiKTeX\2.9\tex/latex/ae\t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
 LaTeX Info: Symbol \textcurrency not provided by
             font family aer in TS1 encoding.
-            Default family used instead on input line 40.
+            Default family used instead on input line 45.
 
-Underfull \hbox (badness 1389) in paragraph at lines 39--43
+Underfull \hbox (badness 1389) in paragraph at lines 44--48
 []\T1/aer/m/n/12 Horst En-torf and Hannes Spen-gler.  \T1/aer/m/it/12 Kosten-Nu
 tzen-Analyse in der Krim-i-nal-
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 45--52
+Underfull \hbox (badness 5374) in paragraph at lines 50--57
 []\T1/aer/m/n/12 Ida Glandmann-Hunkeler.  Die bun-desver-samm-lung - das schwei
 zer para-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--52
+Underfull \hbox (badness 10000) in paragraph at lines 50--57
 []$\T1/aett/m/n/12 https : / / www . parlament . ch / de / ratsbetrieb / suche-
 []curia-[]vista / geschaeft ?
  []
 
-[9
+[14
 
-]) [10] [11] (crime_on_gdp.aux)
+]) [15]
+<charts/scatter_pca.png, id=275, 433.62pt x 289.08pt>
+File: charts/scatter_pca.png Graphic file (type png)
+<use charts/scatter_pca.png>
+Package pdftex.def Info: charts/scatter_pca.png  used on input line 455.
+(pdftex.def)             Requested size: 396.91324pt x 264.62029pt.
+<charts/des_line_intentional_homicide_1_.png, id=276, 433.62pt x 289.08pt>
+File: charts/des_line_intentional_homicide_1_.png Graphic file (type png)
+<use charts/des_line_intentional_homicide_1_.png>
+Package pdftex.def Info: charts/des_line_intentional_homicide_1_.png  used on i
+nput line 468.
+(pdftex.def)             Requested size: 198.45662pt x 132.30353pt.
+<charts/des_line_assault_2_.png, id=277, 433.62pt x 289.08pt>
+File: charts/des_line_assault_2_.png Graphic file (type png)
+<use charts/des_line_assault_2_.png>
+Package pdftex.def Info: charts/des_line_assault_2_.png  used on input line 471
+.
+(pdftex.def)             Requested size: 198.45662pt x 132.30353pt.
+<charts/des_line_sexual_violence_3_.png, id=278, 433.62pt x 289.08pt>
+File: charts/des_line_sexual_violence_3_.png Graphic file (type png)
+<use charts/des_line_sexual_violence_3_.png>
+Package pdftex.def Info: charts/des_line_sexual_violence_3_.png  used on input 
+line 474.
+(pdftex.def)             Requested size: 198.45662pt x 132.30353pt.
+<charts/des_line_sexual_robbery_4_.png, id=279, 433.62pt x 289.08pt>
+File: charts/des_line_sexual_robbery_4_.png Graphic file (type png)
+<use charts/des_line_sexual_robbery_4_.png>
+Package pdftex.def Info: charts/des_line_sexual_robbery_4_.png  used on input l
+ine 477.
+(pdftex.def)             Requested size: 198.45662pt x 132.30353pt.
+<charts/des_line_theft_5_.png, id=280, 433.62pt x 289.08pt>
+File: charts/des_line_theft_5_.png Graphic file (type png)
+<use charts/des_line_theft_5_.png>
+Package pdftex.def Info: charts/des_line_theft_5_.png  used on input line 480.
+(pdftex.def)             Requested size: 198.45662pt x 132.30353pt.
+<charts/des_line_drugs_6_.png, id=281, 433.62pt x 289.08pt>
+File: charts/des_line_drugs_6_.png Graphic file (type png)
+<use charts/des_line_drugs_6_.png>
+Package pdftex.def Info: charts/des_line_drugs_6_.png  used on input line 483.
+(pdftex.def)             Requested size: 198.45662pt x 132.30353pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--485
+[]$[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--485
+[]$ $[]$
+ []
+
+<charts/princial_component_1.png, id=282, 433.62pt x 289.08pt>
+File: charts/princial_component_1.png Graphic file (type png)
+<use charts/princial_component_1.png>
+Package pdftex.def Info: charts/princial_component_1.png  used on input line 49
+8.
+(pdftex.def)             Requested size: 396.91324pt x 264.62029pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 589--592
+
+ []
+
+
+LaTeX Warning: Float too large for page by 5.52519pt on input line 595.
+
+[16 <./charts/scatter_pca.png (PNG copy)>] [17 <./charts/des_line_intentional_h
+omicide_1_.png> <./charts/des_line_assault_2_.png> <./charts/des_line_sexual_vi
+olence_3_.png> <./charts/des_line_sexual_robbery_4_.png> <./charts/des_line_the
+ft_5_.png> <./charts/des_line_drugs_6_.png>] [18] [19 <./charts/princial_compon
+ent_1.png>] (crime_on_gdp.aux)
 Package rerunfilecheck Info: File `crime_on_gdp.out' has not changed.
-(rerunfilecheck)             Checksum: 890069B47654005794F47B9FD0999ACA;568.
+(rerunfilecheck)             Checksum: 707550B275608CF61338905A7D587866;654.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 22896 strings out of 479697
- 410416 string characters out of 2874572
- 784999 words of memory out of 3000000
- 39410 multiletter control sequences out of 15000+200000
- 445337 words of font info for 113 fonts, out of 3000000 for 9000
+ 23007 strings out of 479697
+ 413180 string characters out of 2874572
+ 793913 words of memory out of 3000000
+ 39496 multiletter control sequences out of 15000+200000
+ 444056 words of font info for 109 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 120i,10n,125p,764b,869s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\eriks\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-tcti1200.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb10.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on crime_on_gdp.pdf (13 pages, 343083 bytes).
+ 120i,14n,125p,1236b,871s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+ <C:\Users\eriks\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tc
+ti1200.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb10.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on crime_on_gdp.pdf (20 pages, 1145840 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 99 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 377 PDF objects out of 1000 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
+ 152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
