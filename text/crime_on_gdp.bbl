@@ -1,0 +1,84 @@
+\begin{thebibliography}{10}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Cohen(1988)]{cohen1988}
+Mark~A. Cohen.
+\newblock Some new evidence on the serousness of crime.
+\newblock \emph{Criminology}, 26\penalty0 (2):\penalty0 343--353, 1988.
+\newblock \doi{https://doi.org/10.1111/j.1745-9125.1988.tb00845.x}.
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1745-9125.1988.tb00845.x}.
+
+\bibitem[Cohen et~al.(2004)Cohen, Rust, Steen, and Tidd]{cohen2004}
+Mark~A. Cohen, Roland~T. Rust, Sara Steen, and Simon~T. Tidd.
+\newblock Willingness-to-pay for crime control programms*.
+\newblock \emph{Criminology}, 42\penalty0 (1):\penalty0 89--110, 2004.
+\newblock \doi{https://doi.org/10.1111/j.1745-9125.2004.tb00514.x}.
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1745-9125.2004.tb00514.x}.
+
+\bibitem[Detotto and Otranto(2010)]{detotto}
+Claudio Detotto and Edoardo Otranto.
+\newblock Does crime affect economic growth?
+\newblock \emph{Kyklos}, 63\penalty0 (3):\penalty0 330--345, 2010.
+\newblock \doi{https://doi.org/10.1111/j.1467-6435.2010.00477.x}.
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-6435.2010.00477.x}.
+
+\bibitem[Entorf and Spengler(2002{\natexlab{a}})]{entorf}
+Horst Entorf and Hannes Spengler.
+\newblock \emph{Crime in Europe: causes and consequences}.
+\newblock 2002{\natexlab{a}}.
+\newblock URL \url{https://EconPapers.repec.org/RePEc:dar:wpaper:24090}.
+
+\bibitem[Entorf and Spengler(2002{\natexlab{b}})]{kosten_nutzen_entorf}
+Horst Entorf and Hannes Spengler.
+\newblock \emph{Kosten-Nutzen-Analyse in der Kriminalprävention}.
+\newblock Springer, 2002{\natexlab{b}}.
+\newblock URL \url{https://EconPapers.repec.org/RePEc:dar:wpaper:24090}.
+
+\bibitem[Glandmann-Hunkeler(2014)]{postulat}
+{Ida} Glandmann-Hunkeler.
+\newblock Die bundesversammlung - das schweizer parament, postulat:
+  Volkswirtschaftliche kosten der kriminalitaet in der schweiz.
+\newblock
+  \url{https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20143141},
+  2014.
+\newblock Accessed: 2020-12-18.
+
+\bibitem[McCollister et~al.(2010)McCollister, French, and Fang]{collister}
+{Kathryn E.} McCollister, {Michael T.} French, and Hai Fang.
+\newblock The cost of crime to society: New crime-specific estimates for policy
+  and program evaluation.
+\newblock \emph{Drug and Alcohol Dependence}, 108\penalty0 (1-2):\penalty0
+  98--109, April 2010.
+\newblock ISSN 0376-8716.
+\newblock \doi{10.1016/j.drugalcdep.2009.12.002}.
+\newblock Copyright: Copyright 2010 Elsevier B.V., All rights reserved.
+
+\bibitem[Rozo and Cardenas(2008)]{columbia}
+Sandra Rozo and Mauricio Cardenas.
+\newblock Does crime lower growth? evidence from colombia.
+\newblock \emph{Commission on Growth and Development. The International Bank
+  for Reconstruction and Development.}, 01 2008.
+
+\bibitem[Verdugo~Yepes et~al.(2015)Verdugo~Yepes, Pedroni, and Hu]{var_model}
+Concha Verdugo~Yepes, Peter~L. Pedroni, and Xingwei Hu.
+\newblock Crime and the economy in mexican states; heterogeneous panel
+  estimates (1993-2012).
+\newblock \penalty0 (2015/121), 2015.
+\newblock URL \url{https://EconPapers.repec.org/RePEc:imf:imfwpa:2015/121}.
+
+\bibitem[Viscusi(1993)]{viscusi}
+W.~Kip Viscusi.
+\newblock The value of risks to life and health.
+\newblock \emph{Journal of Economic Literature}, 31\penalty0 (4):\penalty0
+  1912--1946, 1993.
+\newblock ISSN 00220515.
+\newblock URL \url{http://www.jstor.org/stable/2728331}.
+
+\end{thebibliography}

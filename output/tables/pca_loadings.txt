@@ -1,0 +1,18 @@
+% latex table generated in R 3.6.1 by xtable 1.8-4 package
+% Sat Dec 19 21:51:11 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrrrr}
+  \hline
+ & Comp.1 & Comp.2 & Comp.3 & Comp.4 & Comp.5 & Comp.6 & Comp.7 \\ 
+  \hline
+intentional\_homicide\_1 & 0.23 & 0.22 & 0.84 & 0.41 & 0.05 & 0.07 & 0.12 \\ 
+  assault\_2 & -0.27 & 0.60 & 0.10 & -0.23 & -0.66 & -0.23 & -0.11 \\ 
+  sexual\_violence\_3 & -0.46 & -0.08 & 0.29 & -0.31 & 0.43 & -0.59 & 0.28 \\ 
+  robbery\_4 & -0.27 & 0.63 & -0.11 & -0.09 & 0.52 & 0.49 & -0.02 \\ 
+  burglary\_5 & -0.47 & -0.04 & -0.22 & 0.55 & -0.21 & 0.10 & 0.61 \\ 
+  theft\_5 & -0.50 & -0.15 & 0.07 & 0.44 & 0.07 & -0.08 & -0.72 \\ 
+  drugs\_6 & -0.35 & -0.41 & 0.37 & -0.42 & -0.23 & 0.58 & 0.03 \\ 
+   \hline
+\end{tabular}
+\end{table}
